@@ -1,9 +1,10 @@
 from calculator import Calculator
-calculator = Calculator()  # Create an instance of the Calculator class
+from color import colors,fg,bg
 
+calculator = Calculator()  # Create an instance of the Calculator class
+header = calculator.header() #Header 
 while True:
 
-    # header = calculator.header() #Header 
 
     calculator.menu()  # Display the menu
 
@@ -11,9 +12,7 @@ while True:
 
     # Exit
     if choice == 6:
-        print("bye..")
-        print("bye...!")
-        print("bye......!")
+        calculator.exit()      
         break
 
     # Invalid choice
@@ -24,19 +23,22 @@ while True:
     # Choice
     if choice != 5:
         try:
-            num1 = int(input("Enter the number 1: "))
-            num2 = int(input("Enter the number 2: "))
+            num1 = int(input(fg.green+"\nEnter the number 1: "+colors.reset))
+            num2 = int(input(fg.green+"Enter the number 2: "+colors.reset))
         except ValueError:
-            print("Value error! please enter valid numbers")
+            print(fg.red+"\n\t❌ Value error! please enter valid number"+colors.reset)
             continue
     else:  # Previous result
-        print(f"previous result: {calculator.result}")
+        print(fg.green+f"\nprevious result: {calculator.result}"+colors.reset)
         num1 = calculator.result
         try:
-            num2 = int(input("Enter the number 2: "))
+            num2 = int(input(fg.green+"Enter the number 2: "+colors.reset))
             choice=calculator.menuchoice()
+            if choice == 6:
+                calculator.exit()      
+                break
         except ValueError:
-            print("Value error! please enter valid numbers")
+            print(fg.red+"\n\t❌ Value error! please enter valid number"+colors.reset)
             continue
         
     # Choice cases
