@@ -21,4 +21,12 @@ def addone(*y):
         r = r + i
     return r
 
+
 print(f"Addition result: {addone(1,2,3,4,5,6,7)}")
+
+"""
+    Output:
+        0
+        (1, 2, 3, 4, 5, 6, 7)
+        Addition result: 28
+"""

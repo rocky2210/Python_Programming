@@ -1,3 +1,17 @@
+# Composition aggregation
+
+"""
+    Composition:
+        Composition is a "has-a" relationship where one class contains another class as a part 
+        of its state. The contained class cannot exist independently of the container class. 
+        If the container class is destroyed, all the contained objects are also destroyed.
+
+    Aggresition:
+        Aggregation is also a "has-a" relationship, but it represents a weaker form of association 
+        compared to composition. In aggregation, the contained class can exist independently of the 
+        container class. It's more like a "uses-a" relationship.
+"""
+
 class AnimeCharacter:
     def __init__(self, name, series):
         self.name = name
@@ -33,3 +47,14 @@ z_fighters.add_member(goku)
 # List team members
 team7.list_members()
 z_fighters.list_members()
+
+"""
+    Output:
+        Team: Team 7
+        Members:
+        - Naruto from Naruto
+        - Sasuke from Naruto
+        Team: Z Fighters
+        Members:
+        - Goku from Dragon Ball
+"""

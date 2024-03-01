@@ -1,3 +1,11 @@
+"""
+    Composition:
+        Composition is a "has-a" relationship where one class contains another 
+        class as a part of its state. The contained class cannot exist independently 
+        of the container class. If the container class is destroyed, all the contained 
+        objects are also destroyed.
+"""
+
 # Define a base class for anime characters
 class AnimeCharacter:
     def __init__(self, name, series):
@@ -65,3 +73,20 @@ team = Team(team_leader,team_members)
 
 # List the team members
 team.list_team_members()
+
+"""
+    Output:
+        I am Goku from Dragon Ball
+        I am Saitama from One Punch Man
+        ------- Inheritance ------
+        ------- Polymorphism ------
+        Naruto from Naruto is battling Sasuke from Naruto
+        Goku from Dragon ball is battling Vegeta from Dragon ball   
+        ------- Composition ------
+        Team Leader: Naruto
+        Team Members:
+        - Sasuke
+        - Sakura
+        - Kakashi
+        - Minato
+"""

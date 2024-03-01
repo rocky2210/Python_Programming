@@ -31,12 +31,12 @@ print("Right Shift:", bin(result_right_shift),":", result_right_shift)
 Bin() - returns binary representations of the integer.
 """
 
-# Output
 """
-Bitwise AND: 0b1000 : 8
-Bitwise OR: 0b1110 : 14
-Bitwise XOR: 0b110 : 6
-Bitwise NOT (a): -0b1101 : -13
-Left Shift: 0b110000 : 48
-Right Shift: 0b11 : 3
+    Output:
+        Bitwise AND: 0b1000 : 8
+        Bitwise OR: 0b1110 : 14
+        Bitwise XOR: 0b110 : 6
+        Bitwise NOT (a): -0b1101 : -13
+        Left Shift: 0b110000 : 48
+        Right Shift: 0b11 : 3
 """

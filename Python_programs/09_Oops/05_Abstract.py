@@ -1,6 +1,9 @@
 """
-Abstract Base Classes provide a way to define abstract methods and 
-enforce that derived classes implement these methods.
+    Abstract:
+        Abstract Base Classes (ABCs) in Python are a way of enforcing certain methods to be 
+        implemented by subclasses. They are used to define a blueprint for classes and ensure 
+        that all subclasses adhere to a common interface. ABCs cannot be instantiated themselves; 
+        instead, they are designed to be subclassed.
 """
 
 from abc import ABC, abstractmethod
@@ -23,4 +26,5 @@ class Rectangle(Shape):
 
 # Create instances of a concreate subclass
 rectangle = Rectangle(5,4)
-print(f"Rectangle area: {rectangle.area()}") # Output: Rectangle area: 20
+print(f"Rectangle area: {rectangle.area()}") 
+# Output: Rectangle area: 20

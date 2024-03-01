@@ -43,3 +43,12 @@ print(f"Current balance: ${account.get_balance()}")  # Output: Current balance: 
 # Modify the private attribute using the setter method
 account.set_balance(2000)
 print(f"Updated balance: ${account.get_balance()}")  # Output: Updated balance: $2000
+
+"""
+    Output:
+        Account holder: Rocky
+        Deposited $500. New balance: $1500
+        Withdrew $200. New balance: $1300
+        Current balance: $1300
+        Updated balance: $2000
+"""

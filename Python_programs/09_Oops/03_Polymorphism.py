@@ -1,6 +1,11 @@
+# Polymorphism
+
 """
-Polymorphism allows objects of different classes to be treated as objects of a common base class. 
-This enables you to write more flexible and generic code.
+    Polymorphism:
+        Polymorphism is another fundamental concept in object-oriented programming (OOP) 
+        that allows objects of different classes to be treated as objects of a common superclass. 
+        It enables a single interface to represent multiple underlying data types and behaviors. 
+        Polymorphism is often described as "one interface, multiple implementations."
 """
 
 class Shape:
@@ -27,5 +32,10 @@ rectangle = Rectangle(5,4)
 circle = Circle(3)
 
 # Calculate and print their areas
-print(f"Rectangle area: {rectangle.area()}") # Output : 
-print(f"Circle area: {circle.area()}") # Output : 
+print(f"Rectangle area: {rectangle.area()}") 
+print(f"Circle area: {circle.area()}")
+
+"""
+    Rectangle area: 20
+    Circle area: 28.26
+"""

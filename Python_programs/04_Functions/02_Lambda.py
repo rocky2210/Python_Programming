@@ -1,3 +1,12 @@
+# Lambda function
+
+"""
+    Lambda function:
+        Lambda functions, also known as anonymous functions or lambda expressions, are small, 
+        inline functions defined using the lambda keyword in Python. They are typically used for short, 
+        one-time operations where defining a full function using the def keyword would be unnecessary or cumbersome.
+"""
+
 # Simple lambda function
 add = lambda x,y : x + y
 result = add(3,5)
@@ -15,3 +24,11 @@ mytriple = myfunc(3)
 
 print(mydoubler(11))
 print(mytriple(11))
+
+"""
+    Output:
+        8
+        14
+        22
+        33
+"""

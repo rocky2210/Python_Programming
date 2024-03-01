@@ -39,3 +39,13 @@ vegeta = Saiyan("Vegeta", "Dragon ball", 8000)
 # Perform battles with different chacters
 battle(naruto,sasuke)
 battle(goku,vegeta)
+
+"""
+    Output:
+        I am Goku from Dragon Ball
+        I am Saitama from One Punch Man
+        ------- Inheritance ------
+        ------- Polymorphism ------
+        Naruto from Naruto is battling Sasuke from Naruto
+        Goku from Dragon ball is battling Vegeta from Dragon ball
+"""

@@ -22,14 +22,14 @@ print("'Python' in my_string:", 'Python' in my_string)  # False
 print("'Hello' not in my_string:", 'Hello' not in my_string)    # False
 print("'Python' not in my_string:", 'Python' not in my_string)  # True
 
-# Output
 """
-3 in my_list: True
-6 in my_list: False
-3 not in my_list: False
-6 not in my_list: True
-'Hello' in my_string: True
-'Python' in my_string: False
-'Hello' not in my_string: False
-'Python' not in my_string: True
+    Output:
+        3 in my_list: True
+        6 in my_list: False
+        3 not in my_list: False
+        6 not in my_list: True
+        'Hello' in my_string: True
+        'Python' in my_string: False
+        'Hello' not in my_string: False
+        'Python' not in my_string: True
 """

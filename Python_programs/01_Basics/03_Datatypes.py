@@ -155,3 +155,58 @@ print(id(b))
 
 #type
 print(type(a)) # type gets the datatypes of variable
+
+"""
+    Output:
+        <----Printing the values of all variables ----->
+        Text type: (str) Doraaa
+        Numeric Types:
+            int  :  10
+            float  :  3.1
+            Compelx  :  (2+4j)
+        Sequence Types:
+            List: [1, 2, 3, 4, 5]
+            Tuple: (1, 2, 3, 4, 5)
+            Range: range(1, 6)
+        Mapping Type (dict) {'name': 'Monkey D Luffy', 'age': '18'}
+        Set Types: 
+            set:  {1, 2, 3, 4, 5}
+            frozenset:  frozenset({1, 2, 3, 4, 5})
+        Boolean Type (bool): True
+        bool('hi') True
+        bool('') False
+        bool(0) False
+        Binary Types: 
+            bytes: b'Hello'
+            bytearray bytearray(b'Hello')
+            memoryview <memory at 0x7f379942d9c0>
+        None Type (NoneType): None
+                ----------------------------------------------------
+        integer:
+        True
+        139876770972176
+        139876770972176
+        139876772010832
+        139876772010832
+        list:
+        139876769860288
+        139876769860288
+        False
+        139876770087488
+        139876770098496
+        Float:
+        True
+        139876772010960
+        139876772010960
+        String:
+        False
+        139876770097968
+        139876770098096
+        139876770098160
+        139876770098160
+        tuple:
+        True
+        139876769859840
+        139876769859840
+        <class 'tuple'>
+"""

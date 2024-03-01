@@ -20,12 +20,12 @@ print("a >= b:", a >= b)  # False
 # Less than or equal to (<=) operator
 print("a <= b:", a <= b)  # True
 
-# Output
 """
-a == b: False
-a != b: True
-a > b: False
-a < b: True
-a >= b: False
-a <= b: True
+    Output:
+        a == b: False
+        a != b: True
+        a > b: False
+        a < b: True
+        a >= b: False
+        a <= b: True
 """

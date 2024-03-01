@@ -1,5 +1,11 @@
 # Class
 
+"""
+    Class:
+        In Python, a class is a blueprint for creating objects. 
+        It defines the attributes and methods that will be common to all objects created from it.
+"""
+
 class Car:
     # Constructor
     def __init__(self,make,model,color):

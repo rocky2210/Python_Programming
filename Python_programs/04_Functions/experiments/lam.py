@@ -9,3 +9,8 @@ y = (lambda x : x > 3)(5)
 
 # check(5)
 print(y)
+
+"""
+    Output:
+        True
+"""

@@ -1,7 +1,16 @@
+# Encapsulation
+
 """
-    Public: No special naming convention (e.g., self.name)
-    Protected: Prefix with a single underscore (e.g., _protected_attribute)
-    Private: Prefix with a double underscore (e.g., __private_attribute)
+    Encapsulation:
+        Encapsulation is one of the four fundamental principles of object-oriented programming (OOP), 
+        along with inheritance, polymorphism, and abstraction. It refers to the bundling of data and 
+        methods (functions) that operate on the data into a single unit, known as a class. In encapsulation, 
+        the internal state of an object is hidden from the outside world, and access to the data is restricted 
+        to methods of the class.
+
+        Public: No special naming convention (e.g., self.name)
+        Protected: Prefix with a single underscore (e.g., _protected_attribute)
+        Private: Prefix with a double underscore (e.g., __private_attribute)
 """
 
 class Student:

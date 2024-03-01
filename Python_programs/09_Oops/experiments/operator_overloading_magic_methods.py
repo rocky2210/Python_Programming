@@ -16,5 +16,5 @@ saitama = AnimeCharacter("Saitama","One punch man",7000)
 
 # Use the > operator for power level comparison
 print(goku > saitama) # Output : True
-    # Goku is GOD Father 
+    # Goku is GOD Father 😋 
 

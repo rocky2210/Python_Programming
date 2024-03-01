@@ -1,6 +1,6 @@
 """
-Static methods belong to a class and don't depend on instance-specific data. Class 
-methods are bound to the class and can access and modify class-level attributes.
+    Static methods belong to a class and don't depend on instance-specific data. Class 
+    methods are bound to the class and can access and modify class-level attributes.
 """
 class AnimeCharacter:
     total_characters = 0    # Class-level attribute
@@ -24,3 +24,9 @@ goku = AnimeCharacter("Goku","Dragon ball")
 
 AnimeCharacter.print_intro()
 print(f"Total characters created: {AnimeCharacter.total_count()}")
+
+"""
+    Output:
+        Welcome to the world of anime characters! we have 2 characters.
+        Total characters created: 2
+"""

@@ -18,7 +18,8 @@ print(f"basic math results {a} and {b} ")
 
 for i in d.keys():  # way to iterate dictionary
     print(f"{i}: {d[i]}")
-    
+
+
 """
     Output:
         Enter the number 1:10

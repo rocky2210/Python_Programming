@@ -44,18 +44,18 @@ e |= 3
 print("BITWISE OR Assignment: ",e)
 
 
-# Output
 """
-addition assignment :  10
-subtraction assignment :  5
-Multiplication assignment:  25
-Division assignment:  5.0
-Modulus assignment:  2.0
-Floor division:  1
-Exponential:  125
-Left assignment:  40
-Right assignment:  0
-BITWISE AND Assignment 1
-BITWISE XOR Assignment 6
-BITWISE OR Assignment:  7
+    Output:
+        addition assignment :  10
+        subtraction assignment :  5
+        Multiplication assignment:  25
+        Division assignment:  5.0
+        Modulus assignment:  2.0
+        Floor division:  1
+        Exponential:  125
+        Left assignment:  40
+        Right assignment:  0
+        BITWISE AND Assignment 1
+        BITWISE XOR Assignment 6
+        BITWISE OR Assignment:  7
 """

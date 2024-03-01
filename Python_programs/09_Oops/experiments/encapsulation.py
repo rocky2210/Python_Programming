@@ -28,3 +28,11 @@ goku.set_health(100)  # Access health using setter
 goku.take_damage(20)
 goku.heal(10)
 print(f"{goku.name}'s updated health: {goku.get_health()}")
+
+"""
+    Output:
+        Goku's health: 100
+        Goku took 20 damage!
+        Goku healed for 10 health
+        Goku's updated health: 90
+"""

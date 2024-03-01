@@ -1,5 +1,18 @@
-# A match statement takes an expression and compares its 
-# value to successive patterns given as one or more case blocks.
+# A match statement
+
+"""
+    Match statement:
+        The match statement in Python is a feature introduced in Python 3.10 as 
+        part of PEP 634 (Pattern Matching). It provides a powerful and concise syntax 
+        for performing pattern-based conditional execution, making code more readable and expressive.
+        
+        Usage:
+            The match statement is particularly useful when dealing with complex conditional logic 
+            involving multiple possible patterns or conditions. It simplifies code and makes it more 
+            readable by clearly expressing the different cases or scenarios being handled.
+"""
+
+
 def weekday(n):
     match n:
         case 0: return "Monday"
@@ -13,7 +26,16 @@ def weekday(n):
 print(weekday(3))
 print(weekday(6))
 print(weekday(7))
+
+"""
+    Output:
+        Thursday
+        Sunday
+        Invalid day number
+"""
 print("--------------------------------")
+
+
 
 # Combined cases
 def access(user):
@@ -24,6 +46,13 @@ def access(user):
 print(access("manager"))
 print(access("guest"))
 print(access("rocky"))
+
+"""
+    Output:
+        Full access
+        Limited access
+        No access
+"""
 print("--------------------------------")
 
 
@@ -38,6 +67,15 @@ def greeting(details):
                 msg+= f'Good {time} {name}!\n'
             return msg
 print(greeting(["Morning", "Rocky"]))
-print(greeting(["Afternoon", "Dora"]))
-print(greeting(["Evening", "Inu", "Baby", "thire"]))
+print(greeting(["Afternoon", "Virat"]))
+print(greeting(["Evening", "Kanna", "Baby", "Gayu"]))
+
+"""
+    Output:
+        Good Morning Rocky!
+        Good Afternoon Virat!
+        Good Evening Kanna!
+        Good Evening Baby!
+        Good Evening Gayu!
+"""
 

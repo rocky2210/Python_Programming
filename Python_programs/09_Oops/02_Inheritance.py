@@ -1,3 +1,13 @@
+# Inheritance
+
+"""
+    Inheritance:
+        Inheritance is a fundamental concept in object-oriented programming (OOP) that allows a new class (subclass or derived class) 
+        to inherit attributes and methods from an existing class (superclass or base class). This enables code reusability and promotes 
+        the creation of hierarchical relationships between classes. Inheritance is represented as an "is-a" relationship, where a subclass 
+        "is-a" type of its superclass.
+"""
+
 # Parent class (base class)
 
 class Animal:

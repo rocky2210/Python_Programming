@@ -14,10 +14,10 @@ print("not x:", not x)      # False
 # Logical XOR (exclusive OR) using not and or operators
 print("x xor y:", (x or y) and not (x and y))  # True
 
-# Output
 """
-x and y: False
-x or y: True
-not x: False
-x xor y: True
+    Output:
+        x and y: False
+        x or y: True
+        not x: False
+        x xor y: True
 """

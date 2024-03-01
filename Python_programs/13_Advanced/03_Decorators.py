@@ -1,3 +1,13 @@
+# Decorators
+
+"""
+    Decorators:
+        Decorators in Python are a powerful feature that allows you to modify 
+        or extend the behavior of functions or methods without changing their 
+        actual code. Decorators are implemented using functions that take another 
+        function as an argument and return a new function that typically extends or 
+        modifies the behavior of the original function.
+"""
 
 from functools import wraps
 
@@ -22,3 +32,8 @@ def say(lang = "en"):
     return msg,lang
 
 print(say())
+
+"""
+    Output:
+        Can you buy me a Rosemilk 🥤
+"""

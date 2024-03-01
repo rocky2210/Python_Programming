@@ -23,3 +23,9 @@ print(naruto.age)
 
 # Attempt to set a negative age (raises ValueError)
 # naruto.age = -1
+
+"""
+    Output:
+        16
+        17
+"""

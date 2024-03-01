@@ -46,12 +46,12 @@ ichigo.introduce()
 ichigo.release_zanpakuto()
 
 """
-
-I am Goku from Dragon Ball
-I am Asta from Black clover
---------------Inheritance--------------
-I am Goku from Dragon Ball
-Goku is transforming!
-I am Ichigo from Bleach
-Ichigo is releasing their zanpakuto, Zangetsu!
+    Output:
+        I am Goku from Dragon Ball
+        I am Asta from Black clover
+        --------------Inheritance--------------
+        I am Goku from Dragon Ball
+        Goku is transforming!
+        I am Ichigo from Bleach
+        Ichigo is releasing their zanpakuto, Zangetsu!
 """

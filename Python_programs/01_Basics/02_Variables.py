@@ -1,6 +1,11 @@
-# Variables are the containers for storing the data values.
-# A variable is a symbolic name or identifier that is used to
-# store and represent a value in memory
+# Variables
+
+""" 
+    Variables:
+        Variables are the containers for storing the data values.
+        A variable is a symbolic name or identifier that is used to
+        store and represent a value in memory
+"""
 
 # Declaring a variable
 x = 10
@@ -27,6 +32,22 @@ x = y = z = "orange"
 print(x)
 print(y)
 print(z)
+
+
+"""
+    Output:
+        10
+        <class 'int'>
+        rocky
+        inu
+        dora
+        red yellow blue
+        + operator: red
+        orange
+        orange
+        orange
+"""
+
 
 # Single line comment
 

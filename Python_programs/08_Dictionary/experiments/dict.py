@@ -22,17 +22,23 @@ d = {
     "one" : 1,
     "two" : 2
 }
-print("two" in d)   # True
-print("three" in d) # False
+print("two" in d)   
+# Output: True
+print("three" in d) 
+# Output: False
 
 #del keyword in dict
 del d["one"] #deletes the pair
-print(f"del : {d}") # del : {'two': 2}
+print(f"del : {d}") 
+# Output: del : {'two': 2}
 
 #unpacking 
 d = {'a':1,'b':2}
 c = {'c' : 3}
-print(d) # {'a': 1, 'b': 2}
-print(c) # {'c': 3}
-d = {'a':1,'b':2, **c} # {'a': 1, 'b': 2, 'c': 3}
-print(d)#it also update if index already exicts
+print(d) 
+# Output: {'a': 1, 'b': 2}
+print(c) 
+# Output: {'c': 3}
+d = {'a':1,'b':2, **c} 
+print(d) # it also update if index already exicts
+# Output: {'a': 1, 'b': 2, 'c': 3}
